@@ -5,7 +5,7 @@
   % LOW_FREQ: low frequencies
   % MID_FREQ: mid frequencies
   % HIGH_FREQ: high frequencies
-  % dist: output signal
+  % output_signal: final distorted output signal
   
   
 function output_signal = dist_filt(input_signal, fs, LOW_FREQ, MID_FREQ, HIGH_FREQ)
@@ -15,7 +15,7 @@ function output_signal = dist_filt(input_signal, fs, LOW_FREQ, MID_FREQ, HIGH_FR
 
   output = fftshift(fft(input_signal)); % shift zero-frequency component to center of spectrum
   
-  % distort signal via constnat LOW_FREQ, frequencies within the range are cut by constant amount of LOW_FREQ
+  % distort signal via constant LOW_FREQ, frequencies within the range are cut by constant amount of LOW_FREQ
   for i = 1:length(output)
     if ((LOW_FREQ < abs(x(i))) && HIGH_FREQ > abs(x(i)))
       output(i) = output(i) / LOW_FREQ;
