@@ -1,4 +1,4 @@
-function plotFreqRes = plot_freqRes(origSignal, filteredSignal, fs)
+function plot_freqRes(origSignal, filteredSignal, fs)
     % X is the input signal, Y is the output signal
     % H is the frequency response
     % Sampling Frequency set at 44100
