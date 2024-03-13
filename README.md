@@ -4,8 +4,8 @@
 
 ## Group Members:
 
-Christopher Inzunza 
-Kenneth Casimiro
+1. Christopher Inzunza 
+2. Kenneth Casimiro
 Max Shen
 Joel Jijo
 Ethan Kook
