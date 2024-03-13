@@ -1,4 +1,4 @@
-%Collaborators : Ethan Kook
+%Contributors : Ethan Kook
 
 % make figure window
 fig = figure;
