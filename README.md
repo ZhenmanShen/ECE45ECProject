@@ -5,7 +5,7 @@
 Audio synthesizer project created by ECE 45 students, written using the MATLAB language and MATLAB GUI.
 Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUMPCj05mgpjSJxrqFBBiJYZLalAYC9k/edit?pli=1) for more information and usage guidelines.
 
-## Group Members:
+## Contributors:
 
 1. Christopher Inzunza 
 2. Kenneth Casimiro
