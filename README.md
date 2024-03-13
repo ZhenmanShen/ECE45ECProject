@@ -27,7 +27,7 @@ Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUM
 18. Kendra Chen
 19. Jasmine Le
 
-## Useful websites
+## Useful Online Resources:
  
  - [Learning Synths](https://learningsynths.ableton.com)
  - [Learning Synths Playground](https://learningsynths.ableton.com/en/playground)
