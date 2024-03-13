@@ -1,0 +1,4 @@
+function plotFreqResSin = plot_freqResSin(samplingRate, frequency, filteredSignal, fs)
+    
+    plot_freqRes(origSignal, filteredSignal, fs);
+end
