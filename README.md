@@ -1,6 +1,8 @@
-# ECE45 Extra Credit Project
+# ECE45 Extra Credit Project WI24
 
-## Description
+## Description:
+
+Audio synthesizer project created by ECE 45 students, written using the MATLAB language and MATLAB GUI.
 
 ## Group Members:
 
