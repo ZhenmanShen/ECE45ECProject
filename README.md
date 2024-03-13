@@ -4,6 +4,23 @@
 
 ## Group Members:
 
-1.
-2.
-3.
+Christopher Inzunza 
+Kenneth Casimiro
+Max Shen
+Joel Jijo
+Ethan Kook
+Yanhua Liu
+Collin Walmsley
+Yash Joshi
+Alain Zhang
+Kyle Lou
+Eric Palafox
+Madhav Baghla
+Ashley
+Jacob Zhang
+May Zhang
+Kevin Lebed
+Arihant Jain
+Kendra Chen
+Jasmine Le
+
