@@ -27,3 +27,12 @@ Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUM
 18. Kendra Chen
 19. Jasmine Le
 
+## Useful websites
+ 
+ - [Learning Synths](https://learningsynths.ableton.com)
+ - [Learning Synths Playground](https://learningsynths.ableton.com/en/playground)
+ - [DIY Synthesisers](https://blog.demofox.org/diy-synthesizer/)
+ - [Port Audio (audio I/O library)](http://portaudio.com/)
+ - [Synthesis ToolKit in C++](https://ccrma.stanford.edu/software/stk/)
+ - [Max](https://cycling74.com/products/max)
+ - [Software by Miller Puckette](http://msp.ucsd.edu/software.html)
