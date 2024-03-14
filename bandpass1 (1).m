@@ -1,3 +1,12 @@
+% bandpass applies a bandpass filter.
+
+% Contributors:
+% Joel Jijo
+
+% Documentation:
+% a min frequency
+% b max frequency
+% filename name of file
 function bandpass1(a,b,filename)
 %takes the range of frequencies a and b as well as the name of the wave
 %file
