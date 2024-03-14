@@ -17,9 +17,4 @@ n = length(x);
 %gets the length which might be useful
 xf=bandpass(x,[a b],fs);
 %applies the bandpass filter
-plot(x); hold on;
-plot(xf);
-%plots the filter
-sound(xf,fs)
-%plays the sound
 end
