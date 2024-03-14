@@ -30,6 +30,8 @@ indices = find(F >= a & F <= b);
 %gets the indices of the frequencies that are higher and lower than the set frequencies
 audio_fft(indices) = audio_fft(indices) * z;
 %modifies the indices by the factor z
-filtered_signal = abs(audio_fft(1:N/2));
-%takes the absoltue value so it can be played
+filtered_signal = ifft(audio_fft(indices));
+
+
+end
 
