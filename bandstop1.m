@@ -1,3 +1,14 @@
+% bandstop applies a bandstop filter.
+
+% Contributors:
+% Joel Jijo
+
+% Documentation:
+% a min frequency
+% b max frequency
+% filename name of file
+
+
 function bandstop1(a,b,filename)
 %takes the range of frequencies a and b as well as the name of the wave
 %file
