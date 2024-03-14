@@ -1,6 +1,6 @@
 function gen_song_examples(amp, freq, phase, fs, dur, duty)
 % Ode to Joy Example, Mary Had a Little Lamb Example
-% gen_ode_to_joy: Returns a matrix of 'Ode to Joy' melody
+% gen_ode_to_joy: Generates a .wav file of 'Ode to Joy' melody and 'Mary Had a Little Lamb'
 
 % Contributors:
 % Kendra Chen
@@ -12,6 +12,14 @@ function gen_song_examples(amp, freq, phase, fs, dur, duty)
 % fs: sampling frequency, recommended 44.1k
 % dur: duration of a single note, recommended 0.3
 % duty: Not used for this method
+
+%Citations:
+% Note to Frequency Lookup Table
+% https://mixbutton.com/mixing-articles/music-note-to-frequency-chart/
+% Ode to Joy Sheet Music
+% https://cdn3.virtualsheetmusic.com/images/first_pages/BIG/Beethoven/OdeJoySQuartetFirst_BIG.gif
+% Mary Had a Little Lamb Sheet Music
+% https://www.musicallthetime.com/images-songs/mary-had/mary-had-a-little-lamb-for-piano-simple.png
 
 F = 369.63;
 G = 391.63;
