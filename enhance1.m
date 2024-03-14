@@ -1,3 +1,6 @@
+%JOEL JIJO 
+%TAKES A RANGE OF FREQUENCIES A TO B THEN GETS A MULTIPLIER TO THE AMPLITUDE OF THE SIGNAL Z
+%IT THEN APPLIES THE MUTLIPLIER TO SAID RANGE OF FREQUENCIES
 function filtered_signal = enhance1(a,b,z,filename)
 [y,fs] = audioread(filename);
 %gets the sampling frequency and the column vector y
