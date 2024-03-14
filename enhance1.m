@@ -13,10 +13,3 @@ audio_fft(indices) = audio_fft(indices) * z;
 FR = ifft(audio_fft);
 filtered_signal = abs(FR);
 
-new_audio_file = 'filtered_signal.wav'; % Specify the filename for the new WAV file
-audiowrite(new_audio_file, real(filtered_signal), fs)
-[r,fs] = audioread('filtered_signal.wav');
-% Plot the original and modified audio signals
-
-plot(r); hold on;
-plot(abs(audio_fft));
