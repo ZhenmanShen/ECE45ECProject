@@ -6,12 +6,7 @@ krs = fft(y);
 F = (0:N-1)*(fs/N);
 dt = 1/fs;
 t = 0:dt:(length(y)*dt)-dt;
-figure;
-subplot(2,1,1);
-plot(t, y);
-title('Original Audio Signal');
-xlabel('Time (s)');
-ylabel('Amplitude');
+
 indices = find(F >= a & F <= b);
 
 audio_fft(indices) = audio_fft(indices) * z;
