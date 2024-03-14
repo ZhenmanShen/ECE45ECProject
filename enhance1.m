@@ -1,15 +1,23 @@
 function filtered_signal = enhance1(a,b,z,filename)
 [y,fs] = audioread(filename);
+%gets the sampling frequency and the column vector y
 N = length(filename);
+%gets the length of the file
 audio_fft = fft(y);
+%takes the fourier transform of the values of y
 krs = fft(y);
+%takes the fourier transform of the values of y for reference
 F = (0:N-1)*(fs/N);
+%this is the frequencies of the file
 dt = 1/fs;
 t = 0:dt:(length(y)*dt)-dt;
-
+%gets the time of the function
 indices = find(F >= a & F <= b);
-
+%gets the indices of the frequencies that are higher and lower than the set frequencies
 audio_fft(indices) = audio_fft(indices) * z;
+%modifies the indices by the factor z
 FR = ifft(audio_fft);
+%takes the inverse transform of the audio
 filtered_signal = abs(FR);
+%takes the absoltue value so it can be played
 
