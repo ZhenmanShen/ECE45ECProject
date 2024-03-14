@@ -1,3 +1,14 @@
+% amplifies the amplitude in a specific set of frequencies.
+
+% Contributors:
+% Joel Jijo
+
+% Documentation:
+% a min frequency
+% b max frequency
+% filename name of file
+% z multiplier
+
 %JOEL JIJO 
 %TAKES A RANGE OF FREQUENCIES A TO B THEN GETS A MULTIPLIER TO THE AMPLITUDE OF THE SIGNAL Z
 %IT THEN APPLIES THE MUTLIPLIER TO SAID RANGE OF FREQUENCIES
