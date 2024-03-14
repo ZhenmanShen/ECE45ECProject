@@ -31,7 +31,5 @@ indices = find(F >= a & F <= b);
 audio_fft(indices) = audio_fft(indices) * z;
 %modifies the indices by the factor z
 filtered_signal = abs(audio_fft(1:N/2));
-%takes the inverse transform of the audio
-filtered_signal = abs(FR);
 %takes the absoltue value so it can be played
 
