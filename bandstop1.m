@@ -19,9 +19,4 @@ N = length(x);
 %gets the length which might be useful
 xf=bandstop(x,[a b],fs);
 %applies the bandstop filter
-plot(x); hold on;
-plot(xf);
-%plots the filter
-sound(xf,fs)
-%plays the sound
 end 
