@@ -1,4 +1,4 @@
-% amplifies the amplitude in a specific set of frequencies.
+% multiplies the amplitude in a specific set of frequencies.
 
 % Contributors:
 % Joel Jijo
