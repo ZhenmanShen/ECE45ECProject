@@ -19,7 +19,7 @@ Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUM
 10. Kyle Lou
 11. Eric Palafox
 12. Madhav Baghla
-13. Ashley
+13. Ashley Thai
 14. Jacob Zhang
 15. May Zhang
 16. Kevin Lebed
