@@ -7,25 +7,27 @@ Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUM
 
 ## Contributors:
 
-1. Christopher Inzunza 
-2. Kenneth Casimiro
-3. Max Shen
-4. Joel Jijo
-5. Ethan Kook
-6. Yanhua Liu
-7. Collin Walmsley
-8. Yash Joshi
-9. Alain Zhang
-10. Kyle Lou
-11. Eric Palafox
-12. Madhav Baghla
-13. Ashley Thai
-14. Jacob Zhang
-15. May Zhang
-16. Kevin Lebed
-17. Arihant Jain
-18. Kendra Chen
-19. Jasmine Le
+1. Christopher Inzunza: A17445642
+2. Kenneth Casimiro: A17132441
+3. Max Shen: A
+4. Joel Jijo: A17441654
+5. Ethan Kook: A
+6. Yanhua Liu : A
+7. Collin Walmsley: A18003913
+8. Yash Joshi: A
+9. Alain Zhang: A17419638
+10. Kyle Lou: A17475053
+11. Eric Palafox: A
+12. Madhav Baghla: A17283136
+13. Ashley Thai: A18023446
+14. Jacob Zhang: A18033013
+15. May Zhang: A17452487
+16. Kevin Lebed: A
+17. Arihant Jain: A17317535
+18. Kendra Chen: A18013421
+19. Jasmine Le: A
+20. Hamza Ahmed: A17146423
+
 
 ## Useful Online Resources:
  
