@@ -11,7 +11,7 @@ Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUM
 2. Kenneth Casimiro: A17132441
 3. Max Shen: A
 4. Joel Jijo: A17441654
-5. Ethan Kook: A8092777
+5. Ethan Kook: A18092777
 6. Yanhua Liu : A
 7. Collin Walmsley: A18003913
 8. Yash Joshi: A
