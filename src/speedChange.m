@@ -1,5 +1,5 @@
-function speed_changed_signal = speedChange(signal, speedScale, fs)
-% speed_changed_signal: change the speed depending on the speedScale
+function output_signal = speedChange(signal, speedScale, fs)
+% output_signal: change the speed depending on the speedScale
 
 % Contributors:
 % Max Shen 
@@ -28,10 +28,10 @@ function speed_changed_signal = speedChange(signal, speedScale, fs)
     end
     
     % Calculate the new sampling rate
-    newFs = fs / speedScale;
+    new_Fs = fs / speedScale;
 
     % Resample the signal to the new sampling rate
-    speed_changed_signal = resample(signal, newFs, fs);
+    output_signal = resample(signal, new_Fs, fs);
     
   
 
