@@ -17,7 +17,7 @@ Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUM
 8. Yash Joshi: A
 9. Alain Zhang: A17419638
 10. Kyle Lou: A17475053
-11. Eric Palafox: A
+11. Eric Palafox: A18133064
 12. Madhav Baghla: A17283136
 13. Ashley Thai: A18023446
 14. Jacob Zhang: A18033013
