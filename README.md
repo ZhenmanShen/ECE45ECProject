@@ -9,7 +9,7 @@ Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUM
 
 1. Christopher Inzunza: A17445642
 2. Kenneth Casimiro: A17132441
-3. Max Shen: A
+3. Max Shen: A17443771
 4. Joel Jijo: A17441654
 5. Ethan Kook: A18092777
 6. Yanhua Liu : A
