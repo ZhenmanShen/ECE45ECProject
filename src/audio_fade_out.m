@@ -1,29 +1,22 @@
-function [output] = audio_fade_out(input,fade_duration)
-%Input: an audio wave file and a fade duration (should be greater than 1
-%and less than the length of audio wave. 
+function output = audio_fade_out(input, freq, fadeDuration)
+    %Check User Input. If it is greater than the length of the audio, we set the fade duration to the length of the audio 
+    if fadeDuration > (length(input) / freq)
+        fadeDuration = (length(input) / freq); 
+    end
 
-%Output: the audio signal with a fade out effect applied to the end.
+    % Convert fade duration to samples
+    samples = fadeDuration * freq;
 
-%Load audio file
-[output, freq] = audioread(input); 
+    % Create fade-in vector. We fill it with quadratically spaced values from
+    % 0 to 1 to emphasize the fade-in effect. We then flip it for the fade
+    % out effect. 
+    fade_out = flip(linspace(0, 1, samples)'.^2);
+    
 
-%Check fade duration for user error. If fade duration is less than 1, we
-%round it to 1. If it is greater than the audio length, we set it to the
-%audio length. 
-fade_duration = round(fade_duration);
+    % Apply fade-in effect
+    output = input;
+    output(end-samples+1:end) = input(end-samples+1:end) .* fade_out;
 
-if fade_duration < 1
-    fade_duration = 1;
-elseif fade_duration > length(output)
-    fade_duration = length(output); 
-end 
-
-%Set the fade in by scaling the amplitude with values from 1 to 0 (opposite of what
-% we did for fade in, slowly decreasing the amplitude for the fade-out effect. 
-samples = round(fade_duration * freq); 
-fade_out = (fade_samples:-1:1) / samples; 
-
-%Apply the fade-in effect to the audio signal. 
-output(end-samples+1:end) = output(end-samples+1:end) .* fade_out;
-
-
+    % Write audio with fade-in to a new file
+    sound(output, freq); 
+end
