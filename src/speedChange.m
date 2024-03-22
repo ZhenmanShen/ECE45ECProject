@@ -21,7 +21,7 @@ function output_signal = speedChange(signal, speedScale, fs)
 % fs: the sampling frequency
 
 % Function Output:
-% speed_changed_signal: the resulting signal after speedChange
+% output_signal: the resulting signal after speedChange
     
     if speedScale <= 0
         error('Invalid input: speedScale must be greater than 0')
