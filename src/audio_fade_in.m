@@ -12,9 +12,12 @@ function output = audio_fade_in(input, freq, fadeDuration)
     fade_in = linspace(0, 1, samples)'.^2;
 
     % Apply fade-in effect
-    output = input;
-    output(1:samples) = input(1:samples) .* fade_in;
+    output = input;   
+    for i=1:samples
+        output(i) = output(i) * fade_in(i); 
+    end 
 
     % Write audio with fade-in to a new file
     sound(output, freq); 
+    %audiowrite(outputFilePath, yFadeIn, Fs);
 end
