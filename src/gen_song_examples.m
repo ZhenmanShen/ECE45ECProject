@@ -28,8 +28,9 @@ E = 329.62;
 D = 293.67;
 C = 261.63;
 
-song = zeros(1, 20 * fs);
-song_2 = zeros(1, 27 * fs);
+song = [];
+song_2 = [];
+
 %% Ode to Joy 
 note_sine_waves = cell(1, 15);
 note_sizes = zeros(1, 15);
@@ -47,16 +48,14 @@ end
 
 %Add notes to the song
 for i = 1:length(note_frequencies)
-    begin = round((i - 1) * dur * fs) + 1;
-    endd = begin + note_sizes(i) - 1;
-    song(begin:endd) = note_sine_waves{i};
+    song = [song note_sine_waves{i}];
 end
 
 %Play the song
 sound(song, fs);
 
 audiowrite(strcat('Ode_to_Joy', '.wav'), song, fs);
-pause(10)
+pause(5)
 %% Mary Had a Little Lamb
 note_sine_waves = cell(1, 27);
 note_sizes = zeros(1, 27);
@@ -75,13 +74,10 @@ end
 
 %Add notes to the song
 for i = 1:length(note_frequencies)
-    begin = round((i - 1) * dur * fs) + 1;
-    endd = begin + note_sizes(i) - 1;
-    song_2(begin:endd) = note_sine_waves{i};
+    song_2 = [song_2 note_sine_waves{i}];
 end
 
 %Play the song
 sound(song_2, fs);
 audiowrite(strcat('Mary_Had_A_Little_Lamb', '.wav'), song_2, fs);
 end
-
