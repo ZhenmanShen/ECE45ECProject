@@ -17,5 +17,4 @@ function output = audio_fade_in(input, freq, fadeDuration)
 
     % Write audio with fade-in to a new file
     sound(output, freq); 
-    %audiowrite(outputFilePath, yFadeIn, Fs);
 end
