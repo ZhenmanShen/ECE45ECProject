@@ -13,7 +13,7 @@ function output = audio_fade_out(input, freq, fadeDuration)
     fade_out = flip(linspace(0, 1, samples)'.^2);
     
 
-    % Apply fade-in effect
+    % Apply fade-out effect
     output = input;
     output(end-samples+1:end) = input(end-samples+1:end) .* fade_out;
 
