@@ -24,3 +24,4 @@ a = (1 + mod_index*mod_signal).*carrier_signal;
 a = a/max(abs(a));
 
 end
+
