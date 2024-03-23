@@ -25,7 +25,4 @@ function output = audio_fade_out(input, freq, fadeDuration)
     for i = 1:length(input)
         output(i) = input(i);
     end 
-
-    %Output audio for the user. 
-    sound(output, freq); 
 end

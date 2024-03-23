@@ -24,7 +24,4 @@ function output = audio_fade_in(input, freq, fadeDuration)
     for i=1:length(input)
         output(i) = input(i); 
     end 
-
-    % Write audio with fade-in to a new file
-    sound(output, freq); 
 end
