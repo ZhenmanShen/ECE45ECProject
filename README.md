@@ -12,9 +12,9 @@ Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUM
 3. Max Shen: A17443771
 4. Joel Jijo: A17441654
 5. Ethan Kook: A18092777
-6. Yanhua Liu : A
+6. Yanhua Liu : A18059861
 7. Collin Walmsley: A18003913
-8. Yash Joshi: A
+8. Yash Joshi: A16788107
 9. Alain Zhang: A17419638
 10. Kyle Lou: A17475053
 11. Eric Palafox: A18133064
@@ -22,11 +22,12 @@ Refer to the [project report](https://docs.google.com/document/d/13E9s3n5GvA3LUM
 13. Ashley Thai: A18023446
 14. Jacob Zhang: A18033013
 15. May Zhang: A17452487
-16. Kevin Lebed: A
+16. Kevin Lebed: A18045149
 17. Arihant Jain: A17317535
 18. Kendra Chen: A18013421
-19. Jasmine Le: A
+19. Jasmine Le: A18072854
 20. Hamza Ahmed: A17146423
+
 
 
 ## Useful Online Resources:
